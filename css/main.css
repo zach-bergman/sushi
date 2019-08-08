@@ -1,0 +1,38 @@
+/* platinum color: #DFE2E7 */
+/* red color: #A61C3C */
+
+.info {
+    background: #DFE2E7;
+}
+
+body {
+    font-family: 'Mr Dafoe', cursive;
+    color: #DFE2E7;
+}
+
+.primary-color {
+    color: #A61C3C;
+}
+
+.info h2 {
+    word-spacing: 0.6rem;
+}
+
+.info a {
+    transition: color 2s ease-in-out;
+}
+
+.info a:hover {
+    color: #242424;
+}
+
+/*#####header#######*/
+
+#header {
+    min-height: calc(100vh - 94px);
+    background: url(../img/avocado-cuisine-delicious-684965.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
